@@ -1,0 +1,35 @@
+    1  passwd
+    2  wget www.github.com
+    3  cd
+    4  cd downloads
+    5  ls
+    6  git init
+    7  mkdir cs131
+    8  cd cs131
+    9  cd .
+   10  cd ..
+   11  mkdir ws1
+   12  cd ws1
+   13  git status
+   14  touch ws1
+   15  git status
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd ws1
+   20  wget www.github.com
+   21  ls
+   22  git add index.html
+   23  git status
+   24  git commit -m "This is my first commit!"
+   25  git config --global user.name "huang-dylan"
+   26  git commit -m "This is my first commit!"
+   27  git branch
+   28  git remote add origin https://github.com/huang-dylan/cs131.git
+   29  git push -u origin main
+   30  git push -u origin master
+   31  git remote add origin https://github.com/huang-dylan/cs131.git
+   32  git push -u origin master
+   33  
+   34  git push -u origin master
+   35  history > cmds.log
