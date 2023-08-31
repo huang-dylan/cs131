@@ -1,0 +1,39 @@
+   74  mkdir ws2
+   75  cd ws2
+   76  cp /datasets/taxidata.tar.gz .
+   77  ls
+   78  cd ws 2
+   79  cd ws2
+   80  man tar
+   81  ls
+   82  tar -xf taxidata.tar.gz
+   83  ls
+   84  cd taxidata
+   85  ls
+   86  vim 2019-03.csv
+   87  cd ..
+   88  ls
+   89  vim taxidata
+   90  cd taxidata
+   91  vim 2019-03.csv
+   92  grep 2019-03-12 2019-03.csv
+   93  vim 2019-01.csv
+   94  vim 2019-03.csv
+   95  grep .*\".*\",\"2019-03-12.* 2019-03.csv
+   96  grep .*\".*\",\"2019-03-12.* 2019-03.csv | tail -20 > results.txt
+   97  ls
+   98  vim results.txt
+   99  grep .*\".*\",\"2019-03-12.* 2019-03.csv | wc -l >> results.txt
+  100  vim results.txt
+  101  mv results.txt ../ws2
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd ws2
+  106  vim ws2
+  107  mv ws2 results.txt
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd ws2
+  112  history > cmds.log
