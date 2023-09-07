@@ -1,0 +1,11 @@
+  364  mkdir ws3
+  365  cd ws3
+  366  cp /datasets/taxidata.tar.gz .
+  422  tar -xvf taxidata.tar.gz
+  425  cd taxidata
+  450  cut -d "," -f 8 2019-01.csv | sort -r | uniq -c | sort -r -n | head -20 > ws3.txt
+  453  cut -d "," -f 8 2019-02.csv | sort -r | uniq -c | sort -r -n | head -20 >> ws3.txt
+  454  vim ws3.txt
+  456  cp ws3.txt ./../ws3.txt
+  457  cd ..
+  462  history > cmds.log

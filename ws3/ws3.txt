@@ -1,0 +1,20 @@
+ Sorting 2019-01.csv
+ 332473 237.0
+ 323008 236.0
+ 312392 161.0
+
+In other words...
+ID 237 is the most popular, with 332473 visits
+ID 236 is the 2nd most, with 323008 visits
+ID 161 is the 3rd most, with 312392 visits
+
+ Sorting 2019-02.csv
+
+ 294584 237.0
+ 286773 161.0
+ 280640 236.0
+
+In other words...
+ID 237 is the most popular, with 294584 visits
+ID 161 is the 2nd most, with 286773 visits
+ID 236 is the 3rd most, with 280640 visits
