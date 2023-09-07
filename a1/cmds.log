@@ -1,0 +1,42 @@
+ Question 1
+  136  mkdir a1
+  137  ls
+  138  cd a1
+ Question 2
+  140  ~
+ Question 3
+  144  groups
+  145  id
+ Question 4
+  147  mkdir temp
+  148  chmod a-x temp
+  149  cd temp
+  150  ls
+  151  ls -l
+  155  mkdir /mnt/scratch/dylan23fa/a1/temp/testing.txt
+ Question 5
+  157  mkdir temp2
+  158  mkdir temp3
+  159  mv temp2 temp3
+  165  cp temp3 temp3copy
+  166  cp -R temp3 temp3copy
+ Question 6
+  222  cd ..
+  224  cd ..
+  226  cd proc
+  229  ls mem*
+  231  vim meminfo
+  232  ls cpu*
+  233  vim cpuinfo
+ Question 7
+  295  head -n 10 meminfo
+ Question 8
+  296  head -n 10 cpuinfo
+  297  tail -n 10 cpuinfo
+Question 9
+  298  cd ..
+  309  cd etc
+  311  ls os*
+  313  vim os-release
+Question 10
+  338  ls -l os-release

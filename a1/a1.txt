@@ -1,0 +1,10 @@
+1. See commands
+2. My home directory path is /mnt/scratch/dylan23fa. I found it using the ~ command.
+3. My uid is 1015. I belong to the dylan23fa group. I found it using the groups and id commands.
+4. I'm not allowed to cd or make new files under the new directory, but I can ls and ls -l it. I can cp the entire directory with the cp -R <folderName> <folderCopyName> command. 
+5. Yes, I'm allowed to mv the entire directory to temp3. I can cp an entire directory by doing cp -R <folderName> <newFolder>.
+6. The file that contained information about memory in /proc/ was meminfo, and the file that contained information about cpus in /proc/ was cpuinfo.
+7. There are 73080512 kB of total memory on my server.
+8. There are 255 processors on my server. The processor architecture name is POWER8. Each processor runs at 3.425 GHz.
+9. The file os-system under /etc/ has the information. This operating system is version 8.6.
+10. The permission given to all users for os-system is rwx.
