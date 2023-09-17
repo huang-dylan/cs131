@@ -1,0 +1,23 @@
+  475  mkdir ws4
+  476  cd ws4
+
+  498  vi ~/.bashrc
+  506  source .bashrc
+  507  l
+  508  w
+
+  516  cp -r taxidata ../ws4/taxidata
+  525  mkdir FARE
+  537  cd taxidata
+  557  grep .*,48\.0,161\.0,.* 2019-06.csv | cut -d "," -f 11 > ../FARE/48.0-161.0.txt
+  559  grep .*,113\.0,148\.0,.* 2019-06.csv | cut -d "," -f 11 > ../FARE/113.0-148.0.txt
+
+  579  awk '{ sum += $1} END {print sum}' 2019-06.txt
+  584  wc -l 48.0-161.0.txt
+  585  echo "83626/10693" | bc -l
+  596  awk '{ sum += $1} END {print sum}' 113.0-148.0.txt
+  597  wc -l 113.0-148.0.txt
+  598  echo "19239/2312" | bc -l
+  599  cd ..
+  600  vim ws4.txt
+  601  history > cmds.log

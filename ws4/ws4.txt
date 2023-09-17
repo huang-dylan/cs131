@@ -1,0 +1,2 @@
+Average of 48.0-161.0.txt: 7.821
+Average of 113.0-148.0.txt: 8.321
