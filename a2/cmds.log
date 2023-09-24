@@ -1,0 +1,27 @@
+Task 1
+  618  mkdir a2
+  619  cd a2
+  630  grep .*\"2019-05-11.*\",\".* 2019-05.csv
+  631  grep .*\"2019-05-11.*\",\".* 2019-05.csv | cut -d "," -f 17
+  632  grep .*\"2019-05-11.*\",\".* 2019-05.csv | cut -d "," -f 17 | awk '{sum += $1} END {print sum}'
+  633  grep .*\"2019-05-11.*\",\".* 2019-05.csv | cut -d "," -f 17 | wc -l
+  634  echo "4509480/252413" | bc -l
+  636  vim a2.txt
+
+Task 2
+  640  grep .*\"2019-05-11.*\",\".* 2019-05.csv | cut -d "," -f 17 | sort -r -n | head -10
+  642  vi a2.txt
+ 
+Task 3
+  712  grep .*\,.*\,.*\,[3-9]\.0,.*,.*,.*,.*,.*,.*,.*,.*,.*,.*,.*,.*,.*,.* 2019-05.csv | cut -d "," -f 9 | sort -r | uniq -c | sort -r -n | head -10 >> ./../a2.txt
+  714  vi a2.txt
+
+Task 4
+  717  cut -d "," -f 8 2019-05.csv | sort -r | uniq -c | sort -r -n | head -1 >> ./../a2.txt
+  730  grep .*,237\.0,.*,.*,.*,.*,.*,.*,.*,.*,.*,.* 2019-05.csv | cut -d "," -f 9 | sort -r | uniq -c | sort -r -n | head -1 >> ./../a2.txt
+  732  vi a2.txt
+
+Task 5
+  744  cut -d "," -f 8 *.csv | sort -r | uniq -c | sort -r -n | head -1 >> ./../a2.txt
+  746  vi a2.txt
+
