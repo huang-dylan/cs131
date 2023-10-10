@@ -1,0 +1,24 @@
+Task 1
+  875  mkdir ws6
+  876  cd ws5
+  880  cp 2019-11.csv ../../ws6/2019-11.csv
+  881  cd ..
+  883  cd ..
+  884  cd ws6
+  885  ls
+  886  vi 2019-11.csv
+  892  sed -n '/^2.0/p' 2019-11.csv > vendor2.csv
+  893  wc vendor2.csv > ws6.txt
+
+Task 2
+  896  sed -i 's/://g' 2019-11.csv
+  898  sed -i 's/"//g' 2019-11.csv
+  899  sed -i 's/-//g' 2019-11.csv
+  900  mv 2019-11.csv no-separators.csv
+
+Task 3 (cp saved a copy of no-separators.csv after Task 2)
+  902  cp no-separators.csv no-separatorss.csv
+  904  sed -i 's/\.[0-9]*,/,/g' no-separators.csv
+  907  sed -i 's/\.[0-9]*//g' no-separators.csv
+  909  wc no-separatorss.csv >> ws6.txt
+  910  wc no-separators.csv >> ws6.txt

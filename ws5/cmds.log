@@ -1,0 +1,5 @@
+  757  mkdir ws5
+  759  mkdir do234
+  781  cd taxidata
+  783  grep .*,234\.0,.*,.*,.*,.*,.*,.*,.*,.*,.*,.* *.csv | cut -d "," -f 9 | sort -r | uniq -c | sort -r -n | head -100 > ./../ws5.txt
+  832  while read -r count dropoff; do echo "$count" > ./do234/"$dropoff".txt; done < ws5.txt
