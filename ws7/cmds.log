@@ -1,0 +1,24 @@
+Making directory, copying 2019-12.csv into directory
+ 1002  mkdir ws7
+ 1003  cd ws6
+ 1004  ls
+ 1005  cd ..
+ 1006  cd ws5
+ 1007  ls
+ 1008  cd taxidata
+ 1009  ls
+ 1010  cp 2019-12.csv ./../../ws7/2019-12.csv
+ 1011  ls
+ 1012  cd ..
+ 1013  ls
+ 1014  cd ..
+ 1015  ls
+ 1016  cd ws7
+
+Task 1:
+ 1040  awk -F, '$17 >= 10.0 {print $14}' 2019-12.csv > tipamts.txt
+ 1042  sort -r tipamts.txt | uniq -c | sort -r -n > results.txt
+
+Task 2:
+ 1044  head -20 results.txt > ws7.txt
+ 1046  history > cmds.log
