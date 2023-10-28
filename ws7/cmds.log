@@ -21,4 +21,6 @@ Task 1:
 
 Task 2:
  1044  head -20 results.txt > ws7.txt
+
+Task 3:
  1046  history > cmds.log
