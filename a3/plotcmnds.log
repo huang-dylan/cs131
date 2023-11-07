@@ -1,0 +1,13 @@
+plot sin(x)
+help
+set datafile separator ,
+set terminal dumb
+set output "a3t3.svg"
+plot "2019-08.csv" using 4:14 w lp
+set datafile separator ','
+set term svg
+set output "a3t4.svg"
+set parametric
+set view map
+plot "2019-08.csv" using 5:17 w points
+quit

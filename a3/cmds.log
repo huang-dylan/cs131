@@ -1,0 +1,10 @@
+  960  mkdir a3 
+
+Task 1
+ 1004  awk -F , '{for (i=1; i <= NF; i++) {ave[$8] += $17; count[$8] += 1}}; END { for (x in ave) {print ave[x]/count[x], x}}' 2019-08.csv | sort -r -n | head -10 > a3.txt
+
+Task 2
+ 1017  awk -F , '{for (i=1; i <= NF; i++) {ave[$8, $9] += $17; count[$8, $9] += 1}}; END { for (x in ave) {split(x, sep, SUBSEP); print ave[sep[1], sep[2]]/count[sep[1], sep[2]], sep[1], sep[2]}}' 2019-08.csv | sort -r -n | head -1 >> a3.txt
+
+
+ 1028  history > cmds.log
