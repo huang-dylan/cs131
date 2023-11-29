@@ -1,0 +1,51 @@
+  952  wget https://raw.githubusercontent.com/huang-dylan/cs131/master/movies.csv 
+ 1035  git add yearscoremovies.png
+ 1036  git commit -m "Added yearscoremovies.png"
+ 1037  git push
+ 1038  vi movies.csv
+ 1039  gnuplot
+ 1040  ls
+ 1041  git add budgetscoremovies.png
+ 1042  git commit -m "Added budgetscoremovies.png"
+ 1043  git push
+ 1044  vi movies.csv
+ 1045  gnuplot
+ 1046  git add "runtimescoremovies.png"
+ 1047  git commit -m "Added runtimescoremovies.png"
+ 1048  git push
+ 1049  gnuplot
+ 1050  git add runtimescoremovies2.png
+ 1051  git commit -m "runtimescoremovies2.png"
+ 1052  git push
+ 1053  vi movies.png
+ 1054  vi movies.csv
+ 1055  gnuplot
+ 1056  git add budgetscoremovies2.png
+ 1057  git commit -m "Added budgetscoremovies2.png"
+ 1058  git push
+ 1059  gnuplot
+ 1060  git add budgetscoremovies3.png
+ 1061  git commit -m "Added budgetscoremovies3.png"
+ 1062  git push
+ 1063  gnuplot
+ 1064  ls
+ 1065  git add yearscoremovies2.png
+ 1066  git commit -m "Added yearscoremovies2.png"
+ 1067  git push
+ 1068  wc -l movies.csv
+ 1069  vi a5.txt
+ 1070  git add a5.txt
+ 1071  git -m commit "Added a5.txt"
+ 1072  git commit -m "Added a5.txt"
+ 1073  git push
+ 1074  git pull
+ 1075  ls
+ 1076  mv ./runtimescoremovies2.png runtimescoremovies.png
+ 1077  ls
+ 1078  mv ./yearscoremovies2.png yearscoremovies.png
+ 1079  git add yearscoremovies.png
+ 1080  git add runtimescoremovies.png
+ 1081  git commit -m "Renamed movie pngs to appropriate titles"
+ 1082  git push
+ 1083  ls
+ 1084  history > cmds.log
