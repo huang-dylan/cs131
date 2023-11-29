@@ -1,0 +1,19 @@
+yearscoremovies.png - gnuplot commands
+reset session
+set terminal png
+set datafile separator comma
+set output "yearscoremovies.png"
+set xlabel "Year"
+set ylabel "Average User Score"
+set title "Average User Score by Year"
+plot "movies.csv" u 4:6 with linespoints lc rgb "red"
+
+runtimescoremovies.png - gnuplot commands
+reset session
+set terminal png
+set datafile separator comma
+set output "runtimescoremovies.png"
+set xlabel "Runtime (in minutes)"
+set ylabel "Average User Score"
+set title "Average User Score by Runtime"
+plot "movies.csv" u 15:6 with points lc rgb "green"
